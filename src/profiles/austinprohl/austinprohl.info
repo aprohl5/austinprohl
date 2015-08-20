@@ -1,0 +1,6 @@
+name = AustinProhl
+description = Profile for Austin Prohl's Site
+core = 7.x
+
+dependencies[] = ctools
+dependencies[] = views
