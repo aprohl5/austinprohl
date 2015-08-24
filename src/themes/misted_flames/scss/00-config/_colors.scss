@@ -1,11 +1,10 @@
 // Primary colors.
-$color--primary--blue: #0B81C9;
-$color--primary--orange: #F27A22;
-$color--primary: $color--primary--blue;
+$color--primary: #00AEEF;
+$color--secondary: #F9A01B;
 
 // Secondary colors.
-$color--secondary--blue: #0E6BAC;
-$color--secondary: $color--secondary--blue;
+$color--tertiary: #333132;
+$color--secondary: $color--tertiary;
 
 $color--gray--white: hsl(0, 0%, 94.1%);
 $color--gray--lightest: hsl(0, 0%, 85.9%);

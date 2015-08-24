@@ -1,16 +1,16 @@
 {
   "colors": [
     {
-      "name": "$color--primary--blue",
-      "value": "#0B81C9"
+      "name": "$color--primary",
+      "value": "#00AEEF"
     },
     {
-      "name": "$color--primary--orange",
-      "value": "#F27A22"
+      "name": "$color--secondary",
+      "value": "#F9A01B"
     },
     {
-      "name": "$color--secondary--blue",
-      "value": "#0E6BAC"
+      "name": "$color--tertiary",
+      "value": "#333132"
     },
     {
       "name": "$color--gray--white",

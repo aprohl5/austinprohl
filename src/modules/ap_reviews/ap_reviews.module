@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Module file for ap_reviews.
+ */
+
+/*
+ * Implements hook_preprocess_page().
+ */
+
+function ap_reviews_preprocess_page(&$variables) {
+  $request = drupal_http_request('https://www.goodreads.com/book/show/50?format=xml&key=7CgTGOmUrl10oipPl9aa2Q');
+  dpm($request, 'request');
+  $finalData = drupal_json_decode($request->data);
+  dpm($finalData, 'data');
+}
