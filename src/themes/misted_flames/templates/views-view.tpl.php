@@ -28,7 +28,7 @@
  */
 ?>
 <div class="<?php print $classes; ?>">
-<?php die('stuff4');
+<?php dpm('stuff'); ?>
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
     <?php print $title; ?>
@@ -81,7 +81,6 @@
       <?php print $footer; ?>
     </div>
   <?php endif; ?>
-
   <?php if ($feed_icon): ?>
     <div class="feed-icon">
       <?php print $feed_icon; ?>

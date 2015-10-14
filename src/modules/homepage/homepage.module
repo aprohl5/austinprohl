@@ -1,0 +1,22 @@
+<?php
+
+
+
+
+function homepage_block_info() {
+	$blocks['home_slider'] = array(
+	'info' => t('homepage slideshow'),
+	'cache' => DRUPAL_CACHE_GLOBAL,
+	);
+}
+
+function homepage_block_view($delta = '') {
+	$block = array();
+
+	if ($delta = 'home_slider') {
+		$block['subject'] = '';
+		$block['content'] = array(
+			'theme' => 'home_slider',
+		);
+	}
+}

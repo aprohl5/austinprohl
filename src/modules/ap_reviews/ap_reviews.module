@@ -9,8 +9,11 @@
  */
 
 function ap_reviews_preprocess_page(&$variables) {
-  $request = drupal_http_request('https://www.goodreads.com/book/show/50?format=xml&key=7CgTGOmUrl10oipPl9aa2Q');
-  dpm($request, 'request');
-  $finalData = drupal_json_decode($request->data);
-  dpm($finalData, 'data');
+  $request = drupal_http_request('http://www.goodreads.com/search.xml?key=7CgTGOmUrl10oipPl9aa2Q&q=Ender%27s+Game');
+//  dpm($request, 'request');
+  $requestData = $request->data;
+  $finalData = simplexml_load_string($requestData);
+//  dpm($requestData, 'data');
+//  dpm($finalData, 'dataFinal');
+
 }

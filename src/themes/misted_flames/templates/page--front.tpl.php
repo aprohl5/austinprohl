@@ -107,6 +107,9 @@
 
     </div></div> <!-- /.section, /#header -->
 
+<?php $block = module_invoke('views', 'block_view', 'homepage_slider');
+print render($block['content']); ?>
+
     <?php if ($main_menu || $secondary_menu): ?>
       <div id="navigation"><div class="section">
         <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>
