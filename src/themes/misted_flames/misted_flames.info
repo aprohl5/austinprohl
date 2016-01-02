@@ -1,8 +1,0 @@
-name = Misted Flames
-description = A theme for Austin Prohl
-core = 7.x
-
-stylesheets[all][] = css/style.css
-stylesheets[all][] = css/style.css.map
-
-js[] = js/script.js

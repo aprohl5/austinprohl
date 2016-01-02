@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the ap_recipe feature.
- */
-
-include_once 'ap_recipe.features.inc';
