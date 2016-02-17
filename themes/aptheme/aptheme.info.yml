@@ -6,3 +6,12 @@ version: 1.0
 core: 8.x
 libraries:
   - aptheme/global
+
+# Define regions
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  footer: 'Footer'
